@@ -185,5 +185,4 @@ scheduler_events = {
 website_redirects = [
     {"source": "/", "target": "/login"},
     {"source": "/me", "target": "/app"},
-    {"source": "/login", "target": "/app"},
 ]
