@@ -55,9 +55,6 @@
         </template>
         Login via {{ provider.provider_name }}
       </Button>
-      <router-link class="text-base text-center" to="/signup">
-        Sign up for a new account
-      </router-link>
     </form>
   </LoginBox>
 </template>
