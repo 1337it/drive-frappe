@@ -73,7 +73,7 @@ export default {
             label: "Back to App",
             onClick: () => {
     window.location.href = '/app';
-  };
+  },
           },
         ];
       }
@@ -82,8 +82,8 @@ export default {
           icon: "log-out",
           label: "Back to App",
           onClick: () => {
-    window.location.href = '/';
-  };
+    window.location.href = '/app';
+  },
         },
       ];
     },
