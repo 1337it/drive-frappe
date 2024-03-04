@@ -70,7 +70,7 @@ export default {
           },
           {
             icon: "log-out",
-            label: "Log out",
+            label: "Back to App",
             onClick: () => this.logout(),
           },
         ];
@@ -78,7 +78,7 @@ export default {
       return [
         {
           icon: "log-out",
-          label: "Log out",
+          label: "Back to App",
           onClick: () => this.logout(),
         },
       ];
