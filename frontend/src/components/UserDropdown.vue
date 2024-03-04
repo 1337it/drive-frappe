@@ -44,7 +44,7 @@ export default {
   }),
   methods: {
     logout() {
-      window.open(/app);
+    window.location.href = '/app';
     },
   },
   computed: {
@@ -71,7 +71,9 @@ export default {
           {
             icon: "log-out",
             label: "Back to App",
-            onClick: () => this.logout(),
+            onClick: () => {
+    window.location.href = '/app';
+  };
           },
         ];
       }
@@ -79,7 +81,9 @@ export default {
         {
           icon: "log-out",
           label: "Back to App",
-          onClick: () => this.logout(),
+          onClick: () => {
+    window.location.href = '/';
+  };
         },
       ];
     },
