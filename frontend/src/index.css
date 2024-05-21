@@ -6,3 +6,16 @@ content: "Drive"!important;
 .text-base.font-medium.text-gray-900.leading-none {
 font-size: 0!important;
 }
+[data-headlessui-state] {
+text-align: left;
+/* display: none; */
+visibility: hidden;
+}
+#headlessui-menu-item-11 {
+position: fixed;
+display: flex;
+top: -40px;
+/* right: 10%; */
+visibility: visible;
+left: 150px;
+}
